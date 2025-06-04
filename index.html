@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <title>Introduction to Javascript</title>
+</head>
+<body>
+    <h1 id="myH"></h1>
+    <p id="myP"></p>
+
+    <h2>Javascript variables</h2>
+    <p>Adding two numbers</p>
+    <p id="results"></p>
+    <p id="results1"></p>
+
+    <script>
+        //this how to comment in JS
+        document.getElementById("myH").innerHTML="Introduction to Javascript";
+        document.getElementById("myP").innerHTML="Javascript is a programming language. It is used to create dynamic web pages. It is a client-side scripting "
+
+        //Javascript variables
+        var a=10;
+        var b=30;
+        sum = a+ b;
+        document.getElementById("results").innerHTML= "The sum is: " +sum;
+
+        //Javascript statements
+        var x, y, z;  //statements
+        x =30;        //statement
+        y=350;          //statemnent
+        z= x+y;
+        document.getElementById("results1").innerHTML= "The sum is: " +z;
+
+    </script>
+    
+</body>
+</html>
